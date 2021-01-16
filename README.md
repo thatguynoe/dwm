@@ -4,6 +4,7 @@ My build of dwm was heavily inspired by [Luke Smith's](https://github.com/LukeSm
 
 Here's my list of patches:
 * actualfullscreen
+* alpha
 * deck
 * hide vacant tags
 * scratchpads
