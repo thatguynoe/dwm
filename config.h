@@ -181,7 +181,7 @@ static Key keys[] = {
     { MODKEY,                       XK_F8,                      spawn,          SHCMD("mw -Y") },
     { MODKEY,                       XK_F9,                      spawn,          SHCMD("dmenumount") },
     { MODKEY,                       XK_F10,                     spawn,          SHCMD("dmenuumount") },
-    { MODKEY,                       XK_F11,                     spawn,          SHCMD("mpv --no-cache --no-osc --no-input-default-bindings --input-conf=/dev/null --title=webcam $(ls /dev/video[0,2,4,6,8] | tail -n 1)") },
+    { MODKEY,                       XK_F11,                     spawn,          SHCMD("camtoggle") },
     { MODKEY,                       XK_F12,                     spawn,          SHCMD("refbar") },
 
     { 0,                            XF86XK_Tools,               spawn,          SHCMD(TERMINAL " -e ncmpcpp") },
