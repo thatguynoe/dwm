@@ -211,10 +211,10 @@ static Key keys[] = {
     { 0,                            XF86XK_TouchpadToggle,      spawn,          SHCMD("(synclient | grep 'TouchpadOff.*1' && synclient TouchpadOff=0) || synclient TouchpadOff=1") },
     { 0,                            XF86XK_TouchpadOff,         spawn,          SHCMD("synclient TouchpadOff=1") },
     { 0,                            XF86XK_TouchpadOn,          spawn,          SHCMD("synclient TouchpadOff=0") },
-    { 0,                            XF86XK_MonBrightnessUp,     spawn,          SHCMD("backlight_control +5; pkill -RTMIN+19 dwmblocks") },
-    { MODKEY,                       XF86XK_MonBrightnessUp,     spawn,          SHCMD("backlight_control +10; pkill -RTMIN+19 dwmblocks") },
-    { 0,                            XF86XK_MonBrightnessDown,   spawn,          SHCMD("backlight_control -5; pkill -RTMIN+19 dwmblocks") },
-    { MODKEY,                       XF86XK_MonBrightnessDown,   spawn,          SHCMD("backlight_control -10; pkill -RTMIN+19 dwmblocks") },
+    { 0,                            XF86XK_MonBrightnessUp,     spawn,          SHCMD("xbacklight +5; pkill -RTMIN+19 dwmblocks") },
+    { MODKEY,                       XF86XK_MonBrightnessUp,     spawn,          SHCMD("xbacklight +10; pkill -RTMIN+19 dwmblocks") },
+    { 0,                            XF86XK_MonBrightnessDown,   spawn,          SHCMD("xbacklight -5; pkill -RTMIN+19 dwmblocks") },
+    { MODKEY,                       XF86XK_MonBrightnessDown,   spawn,          SHCMD("xbacklight -10; pkill -RTMIN+19 dwmblocks") },
 };
 
 /* button definitions */
