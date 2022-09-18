@@ -27,7 +27,7 @@ My build of dwm.
 
 ## Installation
 
-```
+```sh
 git clone https://github.com/thatguynoe/dwm
 cd dwm
 sudo make install
