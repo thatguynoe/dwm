@@ -196,7 +196,6 @@ static const Key keys[] = {
     { MODKEY,                       XK_F4,                      spawn,          SHCMD(TERMINAL " -e pulsemixer ; kill -44 $(pidof dwmblocks)") },
     { MODKEY,                       XK_F5,                      spawn,          SHCMD("$BROWSER localhost:631/") },
     { MODKEY,                       XK_F6,                      spawn,          SHCMD("dmenubt ; kill -44 $(pidof dwmblocks)") },
-    /* { MODKEY,                       XK_F7,                      spawn,          SHCMD("bluetoothdis ; kill -44 $(pidof dwmblocks)") }, */
     { MODKEY,                       XK_F8,                      spawn,          SHCMD("mw -Y ; pkill -RTMIN+12 dwmblocks") },
     { MODKEY,                       XK_F9,                      spawn,          SPAWN("dmenumount") },
     { MODKEY,                       XK_F10,                     spawn,          SPAWN("dmenuumount") },

@@ -177,9 +177,7 @@ There are nine tags, active tags are highlighted in the top left.
 .ITEM
 \f(CWSuper+F5\fP \(en Open printer setup
 .ITEM
-\f(CWSuper+F6\fP \(en Connect to a paired bluetooth device
-.ITEM
-\f(CWSuper+F7\fP \(en Disconnect from a bluetooth device
+\f(CWSuper+F6\fP \(en Scan for, connect to, or disconnect from a bluetooth device
 .ITEM
 \f(CWSuper+F8\fP \(en Check mail, if mutt-wizard is configured. (Run \f(CWmw add\fP to set up.)
 .ITEM
