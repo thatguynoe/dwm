@@ -21,6 +21,8 @@ static const char *colors[][3]      = {
     [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
     [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
+static const XPoint stickyicon[]    = { {0,0}, {4,0}, {4,8}, {2,6}, {0,8}, {0,0} }; /* represents the icon as an array of vertices */
+static const XPoint stickyiconbb    = {4,8};	/* defines the bottom right corner of the polygon's bounding box (speeds up scaling) */
 
 typedef struct {
     const char *name;
@@ -90,6 +92,7 @@ static const Key keys[] = {
     { MODKEY,                       XK_b,                       togglebar,      {0} },
     { MODKEY,                       XK_i,                       incnmaster,     {.i = +1 } },
     { MODKEY,                       XK_d,                       incnmaster,     {.i = -1 } },
+    { MODKEY,                       XK_s,                       togglesticky,   {0} },
     { MODKEY,                       XK_h,                       setmfact,       {.f = -0.05} },
     { MODKEY,                       XK_l,                       setmfact,       {.f = +0.05} },
     { MODKEY,                       XK_Return,                  zoom,           {0} },

@@ -15,6 +15,10 @@ My build of dwm.
 * [**scratchpads-20200414-728d397b**](https://dwm.suckless.org/patches/scratchpads/dwm-scratchpads-20200414-728d397b.diff) provides scratchpads.
 * [**stacker-6.2**](https://dwm.suckless.org/patches/stacker/dwm-stacker-6.2.diff) can move windows up the stack with <kbd>super+K/J</kbd>.
 * [**statuspadding-6.3**](https://dwm.suckless.org/patches/statuspadding/dwm-statuspadding-6.3.diff) makes the amount of horizontal and vertical padding in the status bar configurable.
+* [**sticky-6.1**](https://dwm.suckless.org/patches/sticky/dwm-sticky-6.1.diff) makes windows "sticky" with <kbd>super+s</kbd>.
+    * [This code](https://github.com/LukeSmithxyz/dwm/pull/181/files) makes dwm not focus sticky windows when switching tags.
+    * [**stickyindicator-6.2**](https://dwm.suckless.org/patches/stickyindicator/dwm-stickyindicator-6.2.diff) displays an indicator in the bar to show when a window is sticky.
+    * The `focus(NULL)` code in the `togglesticky` function in `dwm.c` switches focus to the visible window upon unstickying a window; no more accidentally killing previously-stickied windows.
 
 ## Installation
 
