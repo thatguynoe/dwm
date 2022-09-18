@@ -225,7 +225,7 @@ static const Key keys[] = {
     { 0,                            XF86XK_Mail,                spawn,          SHCMD(TERMINAL " -e neomutt ; pkill -RTMIN+12 dwmblocks") },
     { 0,                            XF86XK_MyComputer,          spawn,          SPAWN(TERMINAL, "-e", "lfub", "/") },
     { 0,                            XF86XK_HomePage,            spawn,          SHCMD("$BROWSER") },
-    { 0,                            XF86XK_Launch1,             spawn,          SHCMD("sleep 1 && xset dpms force off") },
+    { 0,                            XF86XK_Launch1,             spawn,          SHCMD("sleep 0.1 && xset dpms force off") },
     { 0,                            XF86XK_TouchpadToggle,      spawn,          SHCMD("(synclient | grep 'TouchpadOff.*1' && synclient TouchpadOff=0) || synclient TouchpadOff=1") },
     { 0,                            XF86XK_TouchpadOff,         spawn,          SPAWN("synclient", "TouchpadOff=1") },
     { 0,                            XF86XK_TouchpadOn,          spawn,          SPAWN("synclient", "TouchpadOff=0") },
