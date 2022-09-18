@@ -10,6 +10,7 @@ My build of dwm.
 * [**alwayscenter-20200625-f04cac6**](https://dwm.suckless.org/patches/alwayscenter/dwm-alwayscenter-20200625-f04cac6.diff) makes all floating windows centered.
 * [**deck-6.2**](https://dwm.suckless.org/patches/deck/dwm-deck-6.2.diff) provides the deck layout and is accessible via <kbd>super+u</kbd>.
     * [**dwm-deck-tilegap-6.1**](https://dwm.suckless.org/patches/deck/dwm-deck-tilegap-6.1.diff) provides gaps functionality in the deck layout.
+* [**focusmonmouse-6.2**](https://dwm.suckless.org/patches/focusmonmouse/dwm-focusmonmouse-6.2.diff) moves the mouse to the selected monitor.
 
 ## Installation
 
