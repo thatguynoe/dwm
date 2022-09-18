@@ -210,7 +210,6 @@ static Client *nexttiled(Client *c);
 static void pop(Client *c);
 static void propertynotify(XEvent *e);
 static void pushstack(const Arg *arg);
-static void quit(const Arg *arg);
 static Monitor *recttomon(int x, int y, int w, int h);
 static void resize(Client *c, int x, int y, int w, int h, int interact);
 static void resizeclient(Client *c, int x, int y, int w, int h);
@@ -1384,12 +1383,6 @@ pushstack(const Arg *arg) {
 		c->next = sel;
 	}
 	arrange(selmon);
-}
-
-void
-quit(const Arg *arg)
-{
-	running = 0;
 }
 
 Monitor *
