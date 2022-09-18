@@ -42,55 +42,55 @@ is read and displayed in the status text area. It can be set with the
 .BR xsetroot (1)
 command.
 .TP
-.B Button1
+.B Left click
 click on a tag label to display all windows with that tag, click on the layout
 label toggles between tiled and floating layout.
 .TP
-.B Button3
+.B Right click
 click on a tag label adds/removes all windows with that tag to/from the view.
 .TP
-.B Super\-Button1
+.B Super\-Left click
 click on a tag label applies that tag to the focused window.
 .TP
-.B Super\-Button3
+.B Super\-Right click
 click on a tag label adds/removes that tag to/from the focused window.
 .SS Keyboard commands
 .TP
-.B Super\-Shift\-Return
-Start
+.B Super\-Return
+Start the terminal,
 .BR st(1).
 .TP
-.B Super\-p
+.B Super\-d
 Spawn
 .BR dmenu(1)
 for launching other programs.
 .TP
-.B Super\-,
-Focus previous screen, if any.
+.B Super\-Left/Right arrow
+Focus previous/next screen, if any.
 .TP
-.B Super\-.
-Focus next screen, if any.
-.TP
-.B Super\-Shift\-,
-Send focused window to previous screen, if any.
-.TP
-.B Super\-Shift\-.
-Send focused window to next screen, if any.
+.B Super\-Shift\-Left/Right arrow
+Send focused window to previous/next screen, if any.
 .TP
 .B Super\-b
 Toggles bar on and off.
+.TP
+.B Super\-q
+Close focused window.
 .TP
 .B Super\-t
 Sets tiled layout.
 .TP
 .B Super\-f
+Toggle fullscreen for the focused window.
+.TP
+.B Super\-F
 Sets floating layout.
 .TP
-.B Super\-m
-Sets monocle layout.
+.B Super\-u
+Sets deck layout.
 .TP
-.B Super\-space
-Toggles between current and previous layout.
+.B Super\-U
+Sets centered master layout.
 .TP
 .B Super\-j
 Focus next window.
@@ -98,10 +98,16 @@ Focus next window.
 .B Super\-k
 Focus previous window.
 .TP
-.B Super\-i
+.B Super\-Shift\-j
+Move selected window down in stack.
+.TP
+.B Super\-Shift\-k
+Move selected window up in stack.
+.TP
+.B Super\-o
 Increase number of windows in master area.
 .TP
-.B Super\-d
+.B Super\-O
 Decrease number of windows in master area.
 .TP
 .B Super\-l
@@ -110,20 +116,23 @@ Increase master area size.
 .B Super\-h
 Decrease master area size.
 .TP
-.B Super\-Return
-Zooms/cycles focused window to/from master area (tiled layouts only).
-.TP
-.B Super\-Shift\-c
-Close focused window.
-.TP
-.B Super\-f
-Toggle fullscreen for focused window.
+.B Super\-space
+Zooms/cycles focused window to/from master area.
 .TP
 .B Super\-Shift\-space
 Toggle focused window between tiled and floating state.
 .TP
 .B Super\-Tab
 Toggles to the previously selected tags.
+.TP
+.B Super\-a
+Toggle gaps.
+.TP
+.B Super\-z
+Increase gaps between windows.
+.TP
+.B Super\-x
+Decrease gaps between windows.
 .TP
 .B Super\-Shift\-[1..n]
 Apply nth tag to focused window.
@@ -143,17 +152,17 @@ View all windows with any tag.
 .B Super\-Control\-[1..n]
 Add/remove all windows with nth tag to/from the view.
 .TP
-.B Super\-Shift\-q
+.B Super\-Backspace
 Quit dwm.
 .SS Mouse commands
 .TP
-.B Super\-Button1
+.B Super\-Left click
 Move focused window while dragging. Tiled windows will be toggled to the floating state.
 .TP
-.B Super\-Button2
+.B Super\-Middle click
 Toggles focused window between floating and tiled state.
 .TP
-.B Super\-Button3
+.B Super\-Right click
 Resize focused window while dragging. Tiled windows will be toggled to the floating state.
 .SH CUSTOMIZATION
 dwm is customized by creating a custom config.h and (re)compiling the source
