@@ -13,6 +13,7 @@ My build of dwm.
 * [**destroyfocus-20210329-61bb8b2**](https://dwm.suckless.org/patches/destroyfocus/dwm-destroyfocus-20210329-61bb8b2.diff) focuses whichever window the mouse ends up being on top of after killing a window.
 * [**focusmonmouse-6.2**](https://dwm.suckless.org/patches/focusmonmouse/dwm-focusmonmouse-6.2.diff) moves the mouse to the selected monitor.
 * [**hide_vacant_tags-6.3**](https://dwm.suckless.org/patches/hide_vacant_tags/dwm-hide_vacant_tags-6.3.diff) hides tags which are not in use.
+* [**sendmoncenter-20210805-138b405f**](https://dwm.suckless.org/patches/sendmoncenter/dwm-sendmoncenter-20210805-138b405f.diff) keeps centered floating windows centered when sending them to another monitor.
 * [**scratchpads-20200414-728d397b**](https://dwm.suckless.org/patches/scratchpads/dwm-scratchpads-20200414-728d397b.diff) provides scratchpads.
 * [**stacker-6.2**](https://dwm.suckless.org/patches/stacker/dwm-stacker-6.2.diff) can move windows up the stack with <kbd>super+K/J</kbd>.
 * [**statuspadding-6.3**](https://dwm.suckless.org/patches/statuspadding/dwm-statuspadding-6.3.diff) makes the amount of horizontal and vertical padding in the status bar configurable.
