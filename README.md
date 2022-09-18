@@ -12,6 +12,7 @@ My build of dwm.
     * [**dwm-deck-tilegap-6.1**](https://dwm.suckless.org/patches/deck/dwm-deck-tilegap-6.1.diff) provides gaps functionality in the deck layout.
 * [**focusmonmouse-6.2**](https://dwm.suckless.org/patches/focusmonmouse/dwm-focusmonmouse-6.2.diff) moves the mouse to the selected monitor.
 * [**hide_vacant_tags-6.3**](https://dwm.suckless.org/patches/hide_vacant_tags/dwm-hide_vacant_tags-6.3.diff) hides tags which are not in use.
+* [**scratchpads-20200414-728d397b**](https://dwm.suckless.org/patches/scratchpads/dwm-scratchpads-20200414-728d397b.diff) provides scratchpads.
 
 ## Installation
 
