@@ -20,6 +20,7 @@ My build of dwm.
     * [**stickyindicator-6.2**](https://dwm.suckless.org/patches/stickyindicator/dwm-stickyindicator-6.2.diff) displays an indicator in the bar to show when a window is sticky.
     * The `focus(NULL)` code in the `togglesticky` function in `dwm.c` switches focus to the visible window upon unstickying a window; no more accidentally killing previously-stickied windows.
 * [**swallow-6.3**](https://dwm.suckless.org/patches/swallow/dwm-swallow-6.3.diff) allows for programs launched via the terminal to take its place if they would make it inoperable.
+* [**vanitygaps-6.2**](https://dwm.suckless.org/patches/vanitygaps/dwm-vanitygaps-6.2.diff) provides gaps throughout all layouts.
 
 ## Installation
 
