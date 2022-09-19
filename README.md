@@ -1,6 +1,6 @@
 # dwm
 
-My build of dwm.
+My build of [dwm](https://dwm.suckless.org/).
 
 ## Patches and features
 
