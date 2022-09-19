@@ -10,7 +10,6 @@ My build of [dwm](https://dwm.suckless.org/).
 * [**alwayscenter-20200625-f04cac6**](https://dwm.suckless.org/patches/alwayscenter/dwm-alwayscenter-20200625-f04cac6.diff) makes all floating windows centered.
 * [**deck-6.2**](https://dwm.suckless.org/patches/deck/dwm-deck-6.2.diff) provides the deck layout and is accessible via <kbd>super+u</kbd>.
     * [**dwm-deck-tilegap-6.1**](https://dwm.suckless.org/patches/deck/dwm-deck-tilegap-6.1.diff) provides gaps functionality in the deck layout.
-* [**destroyfocus-20210329-61bb8b2**](https://dwm.suckless.org/patches/destroyfocus/dwm-destroyfocus-20210329-61bb8b2.diff) focuses whichever window the mouse ends up being on top of after killing a window.
 * [**focusmonmouse-6.2**](https://dwm.suckless.org/patches/focusmonmouse/dwm-focusmonmouse-6.2.diff) moves the mouse to the selected monitor.
 * [**hide_vacant_tags-6.3**](https://dwm.suckless.org/patches/hide_vacant_tags/dwm-hide_vacant_tags-6.3.diff) hides tags which are not in use.
 * [**sendmoncenter-20210805-138b405f**](https://dwm.suckless.org/patches/sendmoncenter/dwm-sendmoncenter-20210805-138b405f.diff) keeps centered floating windows centered when sending them to another monitor.
