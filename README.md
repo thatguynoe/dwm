@@ -15,6 +15,8 @@ My build of [dwm](https://dwm.suckless.org/).
 * [**sendmoncenter-20210805-138b405f**](https://dwm.suckless.org/patches/sendmoncenter/dwm-sendmoncenter-20210805-138b405f.diff) keeps centered floating windows centered when sending them to another monitor.
 * [**scratchpads-20200414-728d397b**](https://dwm.suckless.org/patches/scratchpads/dwm-scratchpads-20200414-728d397b.diff) provides scratchpads.
 * [**stacker-6.2**](https://dwm.suckless.org/patches/stacker/dwm-stacker-6.2.diff) can move windows up the stack with <kbd>super+K/J</kbd>.
+* [**statusallmons-6.2**](https://dwm.suckless.org/patches/statusallmons/dwm-statusallmons-6.2.diff) draws and updates the statusbar on all monitors.
+* [**showselmon-6.2**](https://dwm.suckless.org/patches/showselmon/dwm-showselmon-6.2.diff) displays inverted colors in the status bar of unselected monitors.
 * [**statuspadding-6.3**](https://dwm.suckless.org/patches/statuspadding/dwm-statuspadding-6.3.diff) makes the amount of horizontal and vertical padding in the status bar configurable.
 * [**sticky-6.1**](https://dwm.suckless.org/patches/sticky/dwm-sticky-6.1.diff) makes windows "sticky" with <kbd>super+s</kbd>.
     * [This code](https://github.com/LukeSmithxyz/dwm/pull/181/files) makes dwm not focus sticky windows when switching tags.
