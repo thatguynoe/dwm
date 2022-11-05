@@ -12,6 +12,7 @@ My build of [dwm](https://dwm.suckless.org/).
     * [**dwm-deck-tilegap-6.1**](https://dwm.suckless.org/patches/deck/dwm-deck-tilegap-6.1.diff) provides gaps functionality in the deck layout.
 * [**focusmonmouse-6.2**](https://dwm.suckless.org/patches/focusmonmouse/dwm-focusmonmouse-6.2.diff) moves the mouse to the selected monitor.
 * [**hide_vacant_tags-6.3**](https://dwm.suckless.org/patches/hide_vacant_tags/dwm-hide_vacant_tags-6.3.diff) hides tags which are not in use.
+* [**preserveonrestart-6.3**](https://dwm.suckless.org/patches/preserveonrestart/dwm-preserveonrestart-6.3.diff) preserves windows in tags when restarting dwm.
 * [**sendmoncenter-20210805-138b405f**](https://dwm.suckless.org/patches/sendmoncenter/dwm-sendmoncenter-20210805-138b405f.diff) keeps centered floating windows centered when sending them to another monitor.
 * [**scratchpads-20200414-728d397b**](https://dwm.suckless.org/patches/scratchpads/dwm-scratchpads-20200414-728d397b.diff) provides scratchpads.
 * [**stacker-6.2**](https://dwm.suckless.org/patches/stacker/dwm-stacker-6.2.diff) can move windows up the stack with <kbd>super+K/J</kbd>.
