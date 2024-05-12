@@ -34,3 +34,17 @@ git clone https://github.com/thatguynoe/dwm
 cd dwm
 sudo make install
 ```
+
+### Updates
+
+The suckless dwm development branch is the `master` branch in this repo. Consequently, this makes updating dwm quite easy:
+
+```sh
+git clone https://github.com/thatguynoe/dwm
+cd dwm
+
+git switch master
+git pull upstream master
+git switch main
+git merge master
+```
