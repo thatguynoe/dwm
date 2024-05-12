@@ -198,6 +198,7 @@ static const Key keys[] = {
     { MODKEY,                       XK_F4,                      spawn,          SHCMD(TERMINAL " -e pulsemixer ; kill -44 $(pidof dwmblocks)") },
     { MODKEY,                       XK_F5,                      spawn,          SHCMD("$BROWSER localhost:631/") },
     { MODKEY,                       XK_F6,                      spawn,          SHCMD("dmenubt ; kill -44 $(pidof dwmblocks)") },
+    { MODKEY,                       XK_F7,                      spawn,          SHCMD("notify-send \"🔔Toggling notifcations...\" ; dunstctl set-paused toggle") },
     { MODKEY,                       XK_F8,                      spawn,          SHCMD("mailsync ; pkill -RTMIN+12 dwmblocks") },
     { MODKEY,                       XK_F9,                      spawn,          SPAWN("mounter") },
     { MODKEY,                       XK_F10,                     spawn,          SPAWN("dmenuumount") },
