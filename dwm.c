@@ -956,10 +956,10 @@ focusstack(const Arg *arg)
 	Client *c, *p;
 
 	if (!selmon->sel || (selmon->sel->isfullscreen && lockfullscreen))
- 		return;
+		return;
 
 	for (p = NULL, c = selmon->clients; c && (i || !ISVISIBLE(c));
-	    i -= ISVISIBLE(c) ? 1 : 0, p = c, c = c->next);
+		i -= ISVISIBLE(c) ? 1 : 0, p = c, c = c->next);
 	focus(c ? c : p);
 	restack(selmon);
 }
